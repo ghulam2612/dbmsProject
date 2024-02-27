@@ -1,0 +1,433 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+.header {
+    background-color: #fff;
+    color: #000000;
+    padding: 10px 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    display: flex;
+    text-align: center;
+}
+.navlink a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 15px;
+    font-size: 22px;
+}
+
+
+#signup, #login{
+    padding: 7px 10px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: #3498db;
+    color: #fff;
+}
+.navlink a:hover {
+    text-decoration: underline;
+}
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.landing {
+    background: url('imgs/headerimg.png') center/cover no-repeat;
+    padding-top: 250px; 
+    margin-top: 30px;
+    /* background: linear-gradient(); */
+    color: #000000; /* Text color on top of the background image */
+}
+
+.flex {
+    display: flex;
+    margin: 30px 20px;
+    /* margin-bottom: 20px; */
+}
+
+.flex .left {
+    height: 50px;
+    margin-left: 40px;
+    flex: 1;
+    display: block;
+}
+.flex .left h1{
+    font-size: 2.4em;
+}
+.flex .left p{
+    color: #889099;
+    font-size: 20px;
+}
+
+
+.flex .right {
+    flex: 1;
+    position: relative;
+    display: flex;
+}
+
+.flex .right img {
+    width: 40%; /* Adjust the width of the images as needed */
+    border: 2px solid #fff; /* White border around the images */
+    border-radius: 15px; /* Adjust the border radius as needed */
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
+
+.flex .right img:nth-child(2) {
+    width: 50%;
+    top: 160PX; /* Adjust the value for the second image */
+    left:-5px; /* Adjust the value for the second image */
+    z-index: 1;
+}
+
+.flex .right img:nth-child(3) {
+    top: 40px; /* Adjust the value for the third image */
+    left: -170px; /* Adjust the value for the third image */
+    z-index: 1;
+}
+
+.form .searchtype{
+    display: flex;
+    gap: 10px;
+}
+.form{
+    margin: 3px 0;
+    margin-bottom: 4px;
+    margin-left: 56px;
+
+}
+form {
+    bottom: -50px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+form label {
+    display: none; /* Hide labels, you can customize this if needed */
+}
+
+input, select, button {
+    padding: 10px;
+    margin-right: 10px; /* Adjust margin as needed */
+    border: 1px solid #ccc; /* Border color for input elements */
+    border-radius: 5px; /* Adjust border-radius as needed */
+}
+
+button {
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+}
+
+
+.text{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 80px 0;
+}
+.text p{
+    color: #889099;
+}
+
+    .read-more-card {
+        margin-bottom: 80px ;
+        display: flex;
+        background-color: white;
+        cursor: pointer;
+    }
+    .container:hover{
+        background-color: rgb(245, 245, 245);
+    }
+    .read-more-card p{
+        color: #889099;
+    }  
+    .container {
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .content {
+        display: none;
+    }
+    label{
+        padding:  5px 10px;
+    }
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked + .content {
+        display: block;
+    }
+
+    label {
+        cursor: pointer;
+        color: rgb(52, 52, 155);
+        text-decoration: none;
+    }
+.top-offer{
+    margin-left: 30px;
+}
+.off-container {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.offcard {
+    width: 250px;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.offcard img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.details {
+    padding: 15px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.line {
+    height: 1px;
+    background-color: #ddd;
+}
+
+.commono {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.commono p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.commono i {
+    margin-left: 5px;
+}
+
+
+
+
+.precent {
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.recentlyaddedprop {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px; /* Adjust the gap between cards */
+    justify-content: space-around; /* Adjust alignment of cards */
+}
+
+/* Style for each card */
+.containerrecent {
+    width: 35%; /* Set the width of each card */
+    border: 1.5px solid #ccc; /* Gray border for each card */
+    border-radius: 10px; /* Border radius for rounded corners */
+    overflow: hidden; /* Hide any content overflow */
+    transition: box-shadow 0.3s ease; /* Add transition for hover effect */
+}
+
+.containerrecent:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Hover effect with shadow */
+}
+
+.lr {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the image in each card */
+.lr img {
+    margin-left: 20px;
+    width: 150px; /* Adjust the width of the image */
+    height: 150px; /* Adjust the height of the image */
+    border-radius: 10px; /* Border radius for the left side of the image */
+}
+
+/* Style for the right part containing the address, area, and posted details */
+.precentright {
+    margin-left: 25px;
+    flex: 1; /* Take remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px; /* Add padding for better spacing */
+}
+
+.add {
+    display: flex;
+    font-weight: bold;
+}
+
+.lr .rate {
+    border-radius: 5px;
+    align-items: center;
+    color: #ffffff;
+    padding: 5px;
+    background-color: #b8b6b6;
+}
+
+/* Style for the area div */
+.area {
+    display: flex;
+    flex-direction: row;
+    gap: 5px; /* Adjust the gap between area items */
+}
+
+/* Style for the posted details */
+.posted {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: flex-end; /* Align posted details to the right */
+    font-size: 14px; /* Adjust the font size as needed */
+    color: #555; /* Optional: adjust the text color */
+}
+
+/* recently added part */
+
+/* Style for the main container */
+
+
+
+.footer {
+    margin-top: 100px    ;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* Text color */
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    display: flex;
+    margin-left: 150px;
+}
+.right .eq{
+    margin-right: 100px;
+}
+.logo img{
+    width: 50px;
+}
+.logo img {
+     max-width: 100px; /*Adjust the max-width as needed */
+}
+
+.socialmediahandle a {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.socialmediahandle a:hover{
+    color:#000000 ;
+}
+span{
+    display: block;
+    padding-top: 40px;
+    /* margin-top: 30px; */
+}
+
+/* Style the subscribe input */
+.sub input[type="email"] {
+    padding: 10px;
+    width: 200px;
+}
+
+/* Style the links in the footer */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Tour Div Styles */
+.tour {
+    margin-bottom: 20px; /* Adjust the margin as needed for spacing */
+}
+
+.eq h3 {
+    border-bottom: 1.5px solid #fff; /* Underline style for headings */
+    padding-bottom: 5px; /* Adjust the padding as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed for spacing */
+    font-size: larger;
+}
+
+.tour a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px; /* Adjust the margin as needed for spacing */
+}
+
+.tour a:hover {
+    text-decoration: underline;
+}
+.company a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px; /* Adjust the margin as needed for spacing */
+}
+
+.company a:hover {
+    text-decoration: underline;
+}
+
+.right a:hover{
+font-size: larger;
+}

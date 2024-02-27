@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forgotpass.css">
+    <title>Forgot Password</title>
+</head>
+<body>
+
+<div class="forgot-password-container">
+    <h2>Forgot Password</h2>
+    <p>Enter your username or email address, and we'll send you a password reset email.</p>
+
+    <label for="emailUsername">Email or Username:</label>
+    <input type="text" id="emailUsername" name="emailUsername" required>
+
+    <button type="button" onclick="resetPassword()">Reset Password</button>
+
+    <div class="login-link">
+        Remember your password? <a href="login.html">Login</a>
+    </div>
+</div>
+
+<script>
+    function resetPassword() {
+        // Add your password reset logic here
+        alert("Password reset logic goes here");
+    }
+</script>
+
+</body>
+</html>
