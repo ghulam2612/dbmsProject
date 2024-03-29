@@ -44,15 +44,18 @@ input:valid + label {
     font-size: 12px;
     color: #3498db;
 }
-
-#showPassword {
-    margin-bottom: 16px;
+#one{
+margin-left: 100px;
 }
 
+
+
 button {
+    margin-left: 2px;
     background-color: #3498db;
     color: #fff;
-    padding: 10px;
+    font-size: 15px;
+    padding: 10px 80px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
